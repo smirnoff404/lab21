@@ -24,5 +24,10 @@ namespace lab21
         {
             InitializeComponent();
         }
+
+        private void btn_sub_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
