@@ -30,7 +30,7 @@
             </Grid.ColumnDefinitions>
             <Button x:Name="btn_addition" Grid.Column="0" Content="+" FontSize="34" FontWeight="Bold"/>
             <Button x:Name="btn_sub" Grid.Column="1" Content="-" FontSize="34" FontWeight="Bold"/>
-            <Button x:Name="btn_multiply" Grid.Column="2" Content="*" FontSize="34" FontWeight="Bold"/>
+            <Button x:Name="btn_multiply" Grid.Column="2" Content="*" FontSize="34" FontWeight="Bold" Click="btn_multiply_Click"/>
             <Button x:Name="btn_divide" Grid.Column="3" Content="/" FontSize="24" FontWeight="Bold"/>
         </Grid>
     <TextBox x:Name="tb_ans" Grid.Row="2" Margin="10" FontSize="52" TextAlignment="Center" FontWeight="Bold"/>
