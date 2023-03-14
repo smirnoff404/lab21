@@ -24,5 +24,24 @@ namespace lab21
         {
             InitializeComponent();
         }
+
+        private void btn_divide_Click(object sender, RoutedEventArgs e)
+        {
+
+            double r;
+            if (!double.TryParse(tb_A.Text, out r) || !double.TryParse(tb_B.Text, out r))
+            {
+                tb_A.Clear();
+                tb_B.Clear();
+                MessageBox.Show("Invalid Data");
+            }
+
+            tb_ans.Text = (Convert.ToDouble(tb_A.Text) / Convert.ToDouble(tb_B.Text)).ToString();
+        }
+
+        private void btn_addition_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
