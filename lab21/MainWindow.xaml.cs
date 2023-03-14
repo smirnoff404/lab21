@@ -77,7 +77,7 @@ namespace lab21
                 MessageBox.Show("Invalid Data");
             }
 
-            tb_ans.Text = (Convert.ToDouble(tb_A.Text) / Convert.ToDouble(tb_B.Text)).ToString();
+            tb_ans.Text = (Convert.ToDouble(tb_A.Text) * Convert.ToDouble(tb_B.Text)).ToString();
         }
     }
 }
