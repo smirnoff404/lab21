@@ -28,7 +28,7 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button x:Name="btn_addition" Grid.Column="0" Content="+" FontSize="34" FontWeight="Bold"/>
+            <Button x:Name="btn_addition" Grid.Column="0" Content="+" FontSize="34" FontWeight="Bold" Click="btn_addition_Click"/>
             <Button x:Name="btn_sub" Grid.Column="1" Content="-" FontSize="34" FontWeight="Bold"/>
             <Button x:Name="btn_multiply" Grid.Column="2" Content="*" FontSize="34" FontWeight="Bold"/>
             <Button x:Name="btn_divide" Grid.Column="3" Content="/" FontSize="24" FontWeight="Bold"/>
